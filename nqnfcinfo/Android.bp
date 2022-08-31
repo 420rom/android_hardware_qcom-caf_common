@@ -12,8 +12,6 @@ cc_binary {
         "main.cpp",
     ],
 
-    header_libs: ["generated_kernel_headers"],
-
     shared_libs: [
         "libc",
         "libbase"
